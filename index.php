@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login - Home Security System</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" href="./css/favicon.png">
+    <link rel="icon" href="/css/favicon.png">
     <link rel="stylesheet" href="./css/login.css">
     <style>
         body{ font: 14px sans-serif; }
@@ -15,7 +15,7 @@
     <div class="wrapper">
         <h2>Login</h2>
         <p>Vul uw gegevens in om in te loggen.</p>
-        <form action = "/auth.php" method = "POST">
+        <form action = "auth.php" method = "POST">
             <div class="form-group">
                 <label>Gebruikersnaam</label>
                 <input type = "text" id ="user" name  = "user" class="form-control"/>  
