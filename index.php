@@ -15,16 +15,14 @@
     <div class="wrapper">
         <h2>Login</h2>
         <p>Vul uw gegevens in om in te loggen.</p>
-        <form action = "auth.php" onsubmit = "return validation()" method = "POST">
+        <form action = "/auth.php" method = "POST">
             <div class="form-group">
                 <label>Gebruikersnaam</label>
                 <input type = "text" id ="user" name  = "user" class="form-control"/>  
-                <span class="invalid-feedback"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group">
                 <label>Wachtwoord</label>
                 <input type = "password" id ="pass" name  = "pass" class="form-control"/>  
-                <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" id="btn" value="Login">
