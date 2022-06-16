@@ -1,0 +1,16 @@
+body{   
+    background: #7ABB57;  
+    color: black;
+}  
+
+.wrapper {
+    height: 30%;
+    background-color: white;
+    border-style: solid;
+    position: absolute;
+    top:0;
+    bottom: 10%;
+    left: 0;
+    right: 0;  
+    margin: auto;
+}
